@@ -29,3 +29,5 @@ steps:
   inputs: 
     PathtoPublish: $(Build.ArtifactStagingDirectory) # dist or build files
     ArtifactName: 'www'
+
+- task: PublishBuildArtifacts@1
